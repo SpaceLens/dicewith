@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,27 +11,27 @@
     <!--Favicons-->
 
 
-	<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
-	<link rel="manifest" href="resources/favicon/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="resources/images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
 
 
-    <!----Moth Comet Styles-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!----Dice With Styles-->
+    <link rel="stylesheet" type="text/css" href="base.css">
 
-	<!--FONTS-->
-	<link href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Press+Start+2P" rel="stylesheet">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Press+Start+2P" rel="stylesheet">
 
 
 
-	<title>Moth Comet</title>
+    <title>Dice With</title>
 </head>
 <body>
-	 <!-- Optional JavaScript -->
+     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -39,38 +39,88 @@
 
     <!------------------------------->
     <!------Begin Content_------------->
-	<div class="jumbotron"> 
-		<img src="resources/mothcomet.png"alt="">
-		<h1>anatomy and physiology</h1>
-		<h4>flashcards to study</h4>
-	</div>
-	<!--Search Bar-->
-	<div class="search">
-		<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
-		<input autocomplete="on" class="form-control search" name="q" placeholder="Search for cats" required="required"  type="text">
-		<button class="button" type="submit">Search</button>
-		</form>
-	</div>
+    <div class="jumbotron"> 
+        <img src="resources/images/logos/dicewith.png"alt="">
+        <h1>DICE WITH<span class="blinking-cursor">|</span></h1>
+    </div>
+     <!--Campaigns-->
+    <div class="campaigns container-fluid">
+        <div class="row">
+            <div class="col-sm campaign"></div>
+            <div class="col-sm campaign" id="left"><a href="fadren.html"><img src="resources/images/logos/fadren.png" alt="fadren" class="campaign" id="left"><h2>fadren</h2></a></div>
+            <div class="col-sm campaign" id="right"><img src="resources/images/logos/wyvern.jpg" alt="wyvern" class="campaign" id="right"><h2>wyvern</h2></div>
+            <div class="col-sm campaign"></div>
+        </div>
+    </div>
+    <!--Search Bar-->
+    <div class="search">
+        <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Search for dragons..." required="required"  type="text" autofocus>
+        <button class="button" type="submit">Search</button>
+        </form>
+    </div>
+   
+    <div class="links container-fluid">
+         <div class="row">
+            <div class="col-sm">
+                <ul class="list-group" id="fadren">
+                    <li href="#" class="list-group-item list-group-item-action active">fadren</li>
+                    <a href="https://www.worldanvil.com/w/thehistoricalsociety-fadrendm" class="list-group-item list-group-item-action">wiki</a>
+                    <a href="https://discordapp.com/channels/@me" class="list-group-item list-group-item-action">discord</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1Wob1l-JzNKFaRf7aOjJBXKwtb5jeUAaWl_AGE65l7kc/edit#gid=1350557281" class="list-group-item list-group-item-action">inventory</a>
+                    <a href="https://www.worldanvil.com/w/thehistoricalsociety-fadrendm/map/2a8f1493-795e-4cce-a17f-5f02ebbb1887" class="list-group-item list-group-item-action">map</a>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group" id="wiki">
+                    <li href="#" class="list-group-item list-group-item-action active">wiki</li>
+                    <a href="https://www.worldanvil.com/world/0c47c63f-dc50-4a53-8b00-aaff943442a2/summary" class="list-group-item list-group-item-action">dashboard</a>
+                    <a href="https://www.worldanvil.com/w/thehistoricalsociety-fadrendm/c/sessionreports-category" class="list-group-item list-group-item-action">session_reports</a>
+                    <a href="https://www.worldanvil.com/w/thehistoricalsociety-fadrendm/a/how-to-play-article" class="list-group-item list-group-item-action">how_to_play</a>
+                    <a href="https://trello.com/b/8oStFwaT/plot-threads" class="list-group-item list-group-item-action">plot_threads</a>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group" id="academia">
+                    <li href="#" class="list-group-item list-group-item-action active">academia</li>
+                    <a href="https://www.theodinproject.com/" class="list-group-item list-group-item-action">the_odin_project</a>
+                    <a href="https://tomato-timer.com/" class="list-group-item list-group-item-action">timer</a>
+                    <a href="https://apps.ankiweb.net/" class="list-group-item list-group-item-action">anki</a>
+                    <a href="https://todoist.com/" class="list-group-item l-group-item-action">todoist</a>
+                    
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group" id="misc">
+                    <li href="#" class="list-group-item list-group-item-action active">misc</li>
+                    <a href="https://www.dndbeyond.com/" class="list-group-item list-group-item-action">dndbeyond</a>
+                    <a href="https://www.youtube.com/watch?v=Eo_oR7YO-Bw" class="list-group-item list-group-item-action">welcome_to_dnd</a>
+                    <a href="https://www.youtube.com/watch?v=yLEMb_RIZ3o" class="list-group-item list-group-item-action">vin_diesel</a>
+                    <a href="https://torchlittavern.podbean.com/" class="list-group-item list-group-item-action">torchlit_tavern</a>
+                </ul>
+            </div>
+         </div> 
+    </div>
 
-	<div class="apps">
-		<div class="row">
-			<div class="col-sm">
-				<a href="https://quizlet.com/_6lj0js">
-					<img src="resources/icons/digestive.png" alt="">
-				</a>
-				<a href="https://quizlet.com/_6lj1ik">
-					<img src="resources/icons/urinary.png" alt="">
-				</a>
-			</div>
-			<div class="col-sm">
-				<a href="https://quizlet.com/_6lj1xv">
-					<img src="resources/icons/female.png" alt="">
-				</a>
-				<a href="https://quizlet.com/_6lj2rz">
-					<img src="resources/icons/male.png" alt="">
-				</a>
-			</div>
-		</div>
-	</div>
+    <div class="apps">
+        <div class="row">
+            <div class="col-sm">
+                <a href="https:///www.redlands.edu/">
+                    <img src="resources/icons/hat.png" alt="">
+                </a>
+                <a href="https://www.random.org/dice/">
+                    <img src="resources/icons/dice.png" alt="">
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.youtube.com">
+                    <img src="resources/icons/youtube.png" alt="">
+                </a>
+                <a href="">
+                    <img src="resources/icons/misc.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
