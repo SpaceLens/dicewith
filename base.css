@@ -161,12 +161,20 @@ html,body
 			color: white;
 		}
 		h2{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+			font-size: 1.6rem;
+		}
+		h3{
 			font-family: 'Montserrat', sans-serif;
 			color: white;
 		}
 		p{
 			font-family: 'Press Start 2P', cursive;
 			color: white;
+		}
+		.jumbotron p {
+			font-size: 4rem; 
 		}
 		td{font-family: 'Press Start 2P', cursive;
 			color: white;}
@@ -200,9 +208,18 @@ html,body
 				h1{
 					font-size: 2em;
 				}
+				h2{
+					font-size: 1em;
+					padding: .4em;
+				}
 				h4{
 					font-size: 1.2em;
 				}
+				.jumbotron p{
+					padding:.4em;
+					font-size:2em;
+				}
+
 			}
 /*3. Colors*/
 	/*1. Jumbotron*/

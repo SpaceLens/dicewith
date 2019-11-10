@@ -40,24 +40,41 @@
     <!------------------------------->
     <!------Begin Content_------------->
     <div class="jumbotron"> 
-        <img src="resources/images/logos/dicewith.png"alt="">
-        <h1>DICE WITH<span class="blinking-cursor">|</span></h1>
-    </div>
-     <!--Campaigns-->
-    <div class="campaigns container-fluid">
-        <div class="row">
-            <div class="col-sm campaign"></div>
-            <div class="col-sm campaign" id="left"><a href="fadren.html"><img src="resources/images/logos/fadren.png" alt="fadren" class="campaign" id="left"><h2>fadren</h2></a></div>
-            <div class="col-sm campaign" id="right"><img src="resources/images/logos/wyvern.jpg" alt="wyvern" class="campaign" id="right"><h2>wyvern</h2></div>
-            <div class="col-sm campaign"></div>
-        </div>
-    </div>
-    <!--Search Bar-->
-    <div class="search">
-        <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
-        <input autocomplete="on" class="form-control search" name="q" placeholder="Search for dragons..." required="required"  type="text" autofocus>
-        <button class="button" type="submit">Search</button>
-        </form>
+			        <!-- Display the countdown timer in an element -->
+			<p id="demo">0d 00h 00m 00s</p>
+
+			<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Nov 12, 2019 08:00:00").getTime();
+
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+
+			  // Get today's date and time
+			  var now = new Date().getTime();
+
+			  // Find the distance between now and the count down date
+			  var distance = countDownDate - now;
+
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			  // Display the result in the element with id="demo"
+			  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+			  + minutes + "m " + seconds + "s ";
+
+			  // If the count down is finished, write some text
+			  if (distance < 0) {
+			    clearInterval(x);
+			    document.getElementById("demo").innerHTML = "EXPIRED";
+			  }
+			}, 1000);
+			</script>
+   	<h2>A Voice From Depths Will Enter the Game</h2>
+   	<h4>It Remembers the Party, Do You Remember Him?</h3>
     </div>
    
     <div class="links container-fluid">
@@ -100,27 +117,6 @@
                 </ul>
             </div>
          </div> 
-    </div>
-
-    <div class="apps">
-        <div class="row">
-            <div class="col-sm">
-                <a href="https:///www.redlands.edu/">
-                    <img src="resources/icons/hat.png" alt="">
-                </a>
-                <a href="https://www.random.org/dice/">
-                    <img src="resources/icons/dice.png" alt="">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="https://www.youtube.com">
-                    <img src="resources/icons/youtube.png" alt="">
-                </a>
-                <a href="">
-                    <img src="resources/icons/misc.png" alt="">
-                </a>
-            </div>
-        </div>
     </div>
 </body>
 </html>
