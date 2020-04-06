@@ -224,25 +224,25 @@ html,body
 /*3. Colors*/
 	/*1. Jumbotron*/
 		.jumbotron{
-			background-color:  #001f3f ;
+			background-color:  #FF6AD5 ;
 		}
 		body{
-			background-color:  #001f3f ;
+			background-color:  #FF6AD5 ;
 		}
 		.list-group-item{
-			background-color: #2c3e50;
+			background-color: #C774E8;
 		}
 		.list-group-item:hover{
-			background-color: #34495e;
+			background-color: #AD8CFF;
 		}
 		ul#fadren .active{
 			background-color: #fea3aa;
 		}
 		ul#wiki .active{
-			background-color: #c37892;
+			background-color: #8795E8;
 		}
 		ul#academia .active{
-			background-color: #c094cc;
+			background-color: #94D0FF;
 		}
 		ul#misc .active{
 			background-color:#a2d0c0;
